@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    background-color: rgb(210, 210, 210);
+}
+
+#header, #footer {
+    background-color: rgb(140, 140, 140);
+    color: white;
+}
+
+#header {
+    padding: 0.4rem 0;
+    padding-left: 3rem;
+    font-size: 30px;
+    color: white;
+}
+
+#header a {
+    color: rgb(240, 240, 240);
+}
+
+#nav {
+    margin-top: 2rem;
+    padding: 0.4rem 3rem;
+    font-size: 30px;
+}
+
+#nav a {
+    margin: 0 20px;
+    color: black
+}
+
+.main-container {
+    display: flex;
+    padding: 0.4rem 3rem;
+    gap: 3rem;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(180, 180, 180);
+    border-radius: 1rem;
+    box-shadow: 6px 6px rgb(160, 160, 160);
+    max-width: 76%;
+}
+
+.about-section {
+    padding: 1rem;
+    text-align: center;
+    flex: 1 1 auto;
+    font-size: 36px;
+}
+
+.pages-summary-container {
+    display: flex;
+    flex: 1 1 auto;
+    margin: 10px;
+    justify-content: space-around;
+    font-size: 30px;
+    
+}
+
+.page2-summary-section, .page3-summary-section {
+    padding: 1rem;
+    max-width: 480px;
+    margin: 10px;
+    text-align: center;
+    margin: 2rem 0;
+}
+.page2-summary-section p, .page3-summary-section p {
+    margin: 2rem 0;
+}
+
+.btn-learn-more a{
+    color: black;
+}
+
+.form {
+    
+    max-height: 670px;
+    max-width: 364px;
+    font-size: 30px;
+    background-color: rgb(180, 180, 180);
+    box-shadow: 6px 6px rgb(160, 160, 160);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form-title-description {
+    text-align: center;
+}
+
+.form-title-description h2 {
+    padding: 1rem 0;
+}
+
+.form-title-description p {
+    padding: 0.6rem 1rem;
+}
+
+#form-textarea {
+    margin: 1rem 1rem;
+    max-width: 310px;
+    min-height: 120px;
+    font-size: 26px;
+    border-radius: 0.4rem;
+}
+
+#form-mail {
+    font-size: 25px;
+    border-radius: 0.2rem;
+}
+
+.form-checkboxes-container {
+    
+}
+
+.form-checkboxes {
+    margin: 10px;
+}
+
+.form-btn {
+    margin: 1rem;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.8rem;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 30px;  
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    padding: 0.4rem 1rem;
+    font-size: 20px;
+    border-radius: 0.3rem;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: white;
+    transform: translate(-1px, -2px); 
+    opacity: 1;
+    box-shadow: 2px 2px rgb(120, 120, 120);
+}
