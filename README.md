@@ -2,7 +2,7 @@
 
 ## Special features
 
-## Technologies to be used:
+## Technologies used:
 - HTML5
 - CSS3
 - Flexbox (CSS flexible box layout)
@@ -20,5 +20,6 @@ If you are interested in interacting with the website there are a few ways:
 - Photo by Constantine  Kim: https://www.pexels.com/photo/cityscape-at-night-10635648/
 
 - Photo by Pixabay: https://www.pexels.com/photo/black-mountains-under-the-stars-at-nighttime-355465/
+
 
 - Photo by Pixabay: https://www.pexels.com/photo/grey-concrete-buildings-under-cloudy-sky-417192/
