@@ -59,7 +59,20 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
+.about-page3, .about-page2 {
+    max-height: 400px;
+    max-width: 364px;
+    font-size: 30px;
+    background-color: rgba(41, 46, 52, 0.8);
+    box-shadow: 6px 6px rgba(22, 24, 29, 0.8);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 0;
+    color: rgb(240, 240, 240); 
+}
 
 
 
@@ -162,11 +175,6 @@
 
 
 
-
-
-
-
-
 /* For hobbies page */
 #hobbies-content {
     box-sizing: border-box;
@@ -190,44 +198,48 @@
     margin-bottom: 10px;
 }
 
-.lists-container {
-    flex: 1 1 100%;
+.table-games {
+    background-color: rgba(79, 83, 87, 0.5);
+    margin-top: 1rem;
 }
 
-.lists-container {
-    display: flex;
-    flex: 1 1 100%;
-    margin: 10px;
-    justify-content: space-around;
+.table-games th, .table-games td {
+    border: 1px solid white;
     font-size: 26px;
+    padding: 1rem;
+    width: 260px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.game-list-container {
+    display: flex;
+    /* border:1px solid white; */
+    font-size: 30px;
+    padding: 1rem;
+    gap: 100px;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+}
+
+
+.game-list-selection {
+    padding: 0rem;
+    max-width: 480px;
+    margin-top: 1rem;
+    text-align: center;
     
 }
 
-.list-selection {
-    padding: 1rem;
-    max-width: 480px;
-    margin: 10px;
-    text-align: center;
-    margin: 2rem 0;
-}
-.list-section p {
-    margin: 2rem 0;
+.game-list-selection h3 {
+    margin-bottom: 0.5rem;
 }
 
-.about-page3, .about-page2 {
-    max-height: 400px;
-    max-width: 364px;
-    font-size: 30px;
-    background-color: rgba(41, 46, 52, 0.8);
-    box-shadow: 6px 6px rgba(22, 24, 29, 0.8);
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    flex-shrink: 0;
-    color: rgb(240, 240, 240); 
+.game-list-selection li {
+    margin-bottom: 0.5rem;
 }
+
+
 
 
 /* For 3 page */
@@ -253,27 +265,23 @@
     margin-bottom: 10px;
 }
 
-.table-container {
+.lists-container {
     display: flex;
-    /* border:1px solid white; */
-    font-size: 30px;
-    padding: 1rem;
-    gap: 100px;
-    justify-content: space-evenly;
-    flex-basis: 100%;
-}
-
-.table1 {
-    background-color: rgba(79, 83, 87, 0.5)
+    flex: 1 1 100%;
+    margin: 10px;
+    justify-content: space-around;
+    font-size: 26px;
     
 }
 
-.table1 th, .table1 td {
-    border:1px solid white;
-    font-size: 30px;
+.list-selection {
     padding: 1rem;
-    width: 250px;
+    max-width: 480px;
     text-align: center;
+    margin: 1rem 0;
+}
+.list-section p {
+    margin: 2rem 0;
 }
 
 
