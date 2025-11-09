@@ -4,23 +4,14 @@
     border: 0;
 }
 
-body {
-    box-sizing: border-box;
-    position: relative;
-    min-height: 100vh;
-    background-color: rgb(210, 210, 210);
-}
 
-#header, #footer {
-    background-color: rgb(140, 140, 140);
-    color: white;
-}
 
+/* Common style on all pages */
 #header {
     padding: 0.4rem 0;
     padding-left: 3rem;
     font-size: 30px;
-    color: white;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #header a {
@@ -31,108 +22,29 @@ body {
     margin-top: 2rem;
     padding: 0.4rem 3rem;
     font-size: 30px;
+    color: rgb(240, 240, 240);
 }
 
 #nav a {
     margin: 0 20px;
-    color: black
+    color: rgb(240, 240, 240);
 }
 
-.main-container {
+.elements-container {
     display: flex;
     padding: 0.4rem 3rem;
     gap: 3rem;
 }
 
-.main {
+.main-content {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(180, 180, 180);
+    background-color: rgba(41, 46, 52, 0.8);
     border-radius: 1rem;
-    box-shadow: 6px 6px rgb(160, 160, 160);
+    box-shadow: 6px 6px rgba(22, 24, 29, 0.8);
     max-width: 76%;
-}
-
-.about-section {
-    padding: 1rem;
-    text-align: center;
-    flex: 1 1 auto;
-    font-size: 36px;
-}
-
-.pages-summary-container {
-    display: flex;
-    flex: 1 1 auto;
-    margin: 10px;
-    justify-content: space-around;
-    font-size: 30px;
-    
-}
-
-.page2-summary-section, .page3-summary-section {
-    padding: 1rem;
-    max-width: 480px;
-    margin: 10px;
-    text-align: center;
-    margin: 2rem 0;
-}
-.page2-summary-section p, .page3-summary-section p {
-    margin: 2rem 0;
-}
-
-.btn-learn-more a{
-    color: black;
-}
-
-.form {
-    
-    max-height: 670px;
-    max-width: 364px;
-    font-size: 30px;
-    background-color: rgb(180, 180, 180);
-    box-shadow: 6px 6px rgb(160, 160, 160);
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.form-title-description {
-    text-align: center;
-}
-
-.form-title-description h2 {
-    padding: 1rem 0;
-}
-
-.form-title-description p {
-    padding: 0.6rem 1rem;
-}
-
-#form-textarea {
-    margin: 1rem 1rem;
-    max-width: 310px;
-    min-height: 120px;
-    font-size: 26px;
-    border-radius: 0.4rem;
-}
-
-#form-mail {
-    font-size: 25px;
-    border-radius: 0.2rem;
-}
-
-.form-checkboxes-container {
-    
-}
-
-.form-checkboxes {
-    margin: 10px;
-}
-
-.form-btn {
-    margin: 1rem;
+    color: rgb(240, 240, 240);
 }
 
 #footer {
@@ -144,8 +56,229 @@ body {
     padding-top: 1rem;
     font-size: 30px;  
     color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
+
+
+
+
+
+/* For index.html */
+    #index-content {
+        box-sizing: border-box;
+        position: relative;
+        min-height: 100vh;
+        
+        background: linear-gradient(rgba(41, 78, 92, 0.521),rgba(0, 0, 0, 0.5)), url(./images/pexels-whileopenmind-10635648.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+
+    /* index main box */
+    .index-about-section {
+        padding: 1rem;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .index-about-section h2 {
+        margin-bottom: 10px;
+    }
+
+    .pages-summary-container {
+        display: flex;
+        /* flex: 1 1 auto; */
+        margin: 10px;
+        justify-content: space-around;
+        font-size: 26px;
+        
+    }
+
+    .page2-summary-section, .page3-summary-section {
+        padding: 1rem;
+        max-width: 480px;
+        margin: 10px;
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .page2-summary-section p, .page3-summary-section p {
+        margin: 2rem 0;
+    }
+
+    /* index form */
+    .form {
+        
+        max-height: 670px;
+        max-width: 364px;
+        font-size: 30px;
+        background-color: rgba(41, 46, 52, 0.8);
+        box-shadow: 6px 6px rgba(22, 24, 29, 0.8);
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        color: rgb(240, 240, 240); 
+    }
+
+    .form-title-description {
+        text-align: center;
+    }
+
+    .form-title-description h2 {
+        padding: 1rem 0;
+    }
+
+    .form-title-description p {
+        padding: 0.6rem 1rem;
+    }
+
+    #form-textarea {
+        margin: 1rem 1rem;
+        max-width: 310px;
+        max-height: 120px;
+        min-height: 120px;
+        font-size: 26px;
+        border-radius: 0.4rem;
+    }
+
+    #form-mail {
+        font-size: 25px;
+        border-radius: 0.3rem;
+    }
+
+    
+
+    .form-checkboxes {
+        margin: 10px;
+    }
+
+    .btn-form {
+        margin: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+/* For hobbies page */
+#hobbies-content {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    
+    background: linear-gradient(rgba(17, 42, 67, 0.521),rgba(0, 0, 0, 0.5)), url(./images/pexels-pixabay-355465.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.hobbies-about-section {
+    padding: 1rem;
+    text-align: center;
+    flex: 1 1 100%;
+    font-size: 30px;
+}
+
+.hobbies-about-section h2 {
+    margin-bottom: 10px;
+}
+
+.lists-container {
+    flex: 1 1 100%;
+}
+
+.lists-container {
+    display: flex;
+    flex: 1 1 100%;
+    margin: 10px;
+    justify-content: space-around;
+    font-size: 26px;
+    
+}
+
+.list-selection {
+    padding: 1rem;
+    max-width: 480px;
+    margin: 10px;
+    text-align: center;
+    margin: 2rem 0;
+}
+.list-section p {
+    margin: 2rem 0;
+}
+
+.about-page3, .about-page2 {
+    max-height: 400px;
+    max-width: 364px;
+    font-size: 30px;
+    background-color: rgba(41, 46, 52, 0.8);
+    box-shadow: 6px 6px rgba(22, 24, 29, 0.8);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 0;
+    color: rgb(240, 240, 240); 
+}
+
+
+/* For 3 page */
+#page3-content {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url(./images/pexels-pixabay-417192.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.page3-about-section {
+    padding: 1rem;
+    text-align: center;
+    flex: 1 1 100%;
+    font-size: 30px;
+}
+
+.page3-about-section h2 {
+    margin-bottom: 10px;
+}
+
+.table-container {
+    display: flex;
+    /* border:1px solid white; */
+    font-size: 30px;
+    padding: 1rem;
+    gap: 100px;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+}
+
+.table1 {
+    background-color: rgba(79, 83, 87, 0.5)
+    
+}
+
+.table1 th, .table1 td {
+    border:1px solid white;
+    font-size: 30px;
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+}
+
+
+
+/* Common Buttons and Links */
 .btn {
     padding: 0.4rem 1rem;
     font-size: 20px;
@@ -155,13 +288,35 @@ body {
     transition: 0.4s;
 }
 
+
+
+/* .btn-learn-more a{
+    color: black;
+} */
+
+.btn-home {
+    margin: 2rem 1rem;
+}
+
 a {
     text-decoration: none;
 }
 
-button:hover {
+.btn:hover {
     background-color: white;
     transform: translate(-1px, -2px); 
     opacity: 1;
     box-shadow: 2px 2px rgb(120, 120, 120);
 }
+
+
+/* nav a:hover {
+    background-color: red;
+} */
+
+/* button:hover {
+    background-color: white;
+    transform: translate(-1px, -2px); 
+    opacity: 1;
+    box-shadow: 2px 2px rgb(120, 120, 120);
+} */

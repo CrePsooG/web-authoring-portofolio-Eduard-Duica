@@ -1,7 +1,7 @@
 # Description:
 The purpose of portofolio: 
 
-Target audience: 
+Target audience: everyone
 
 ## Planning main page
 
@@ -61,7 +61,13 @@ Target audience:
 
 ## General design:
 
-eh
+- header containing the name of the website located on the top left of the page
+- a nav with links to different pages 
+- 2 boxes, slightly transparent:
+    - one main box with the main topic of the page
+    - second smaller box on the right next to the main box
+- a footer with the a symbol and some text
+- and a background picture
 
 ## Navigation:
 I chose a navigation system with buttons because it's easy to use and understand. In order to go the main page you can: 
@@ -90,7 +96,7 @@ Sketches done with [draw.io](https://app.diagrams.net/)
 ## HTML tags to be used effectively: 
 - **&lt;h1&gt;** to **&lt;h6&gt;** tags for titles
 - **&lt;p&gt;** tags for paragraphs
-- **&lt;button&gt;** tags for buttons
+- **&lt;a&gt;** tags for links and buttons
 - **&lt;ul&gt;** and **&lt;ol&gt;** for unordered lists and ordered lists
 - **&lt;li&gt;** tags for list items
 
