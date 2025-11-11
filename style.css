@@ -5,8 +5,9 @@
 }
 
 
-
+/* ***************************/
 /* Common style on all pages */
+/* ***************************/
 #header {
     padding: 0.4rem 0;
     padding-left: 3rem;
@@ -75,9 +76,9 @@
 }
 
 
-
-
-/* For index.html */
+/* *********************************************/
+/* Unique style for the Home page (index.html) */
+/* *********************************************/
     #index-content {
         box-sizing: border-box;
         position: relative;
@@ -120,7 +121,7 @@
         margin: 2rem 0;
     }
 
-    /* index form */
+    /* Style for the form from index.html*/
     .form {
         
         max-height: 670px;
@@ -162,8 +163,6 @@
         border-radius: 0.3rem;
     }
 
-    
-
     .form-checkboxes {
         margin: 10px;
     }
@@ -172,10 +171,9 @@
         margin: 1rem;
     }
 
-
-
-
-/* For hobbies page */
+/* *******************************************/
+/* Unique style for hobbies page (page2.html)*/
+/* *******************************************/
 #hobbies-content {
     box-sizing: border-box;
     position: relative;
@@ -199,11 +197,19 @@
 }
 
 .table-games {
-    background-color: rgba(79, 83, 87, 0.5);
+    
     margin-top: 1rem;
 }
 
+.table-games caption {
+    caption-side: bottom;
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 1rem;
+}
+
 .table-games th, .table-games td {
+    background-color: rgba(79, 83, 87, 0.5);
     border: 1px solid white;
     font-size: 26px;
     padding: 1rem;
@@ -242,7 +248,9 @@
 
 
 
-/* For 3 page */
+/* ************************************************/
+/* Unique style for Future Plans page (page.html) */
+/* ************************************************/
 #page3-content {
     box-sizing: border-box;
     position: relative;
@@ -285,8 +293,9 @@
 }
 
 
-
-/* Common Buttons and Links */
+/* ***************************************/
+/* Common Buttons and Links on all pages */
+/* ***************************************/
 .btn {
     padding: 0.4rem 1rem;
     font-size: 20px;
@@ -295,8 +304,6 @@
     opacity: 0.6;
     transition: 0.4s;
 }
-
-
 
 /* .btn-learn-more a{
     color: black;
@@ -316,7 +323,6 @@ a {
     opacity: 1;
     box-shadow: 2px 2px rgb(120, 120, 120);
 }
-
 
 /* nav a:hover {
     background-color: red;

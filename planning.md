@@ -1,5 +1,5 @@
 # Description:
-The purpose of portofolio: 
+The purpose of this portofolio is to demonstrate my practical web development skills and understanding of HTML and CSS. 
 
 Target audience: everyone
 
@@ -72,8 +72,12 @@ Target audience: everyone
 ## Navigation:
 I chose a navigation system with buttons because it's easy to use and understand. In order to go the main page you can: 
 - click the name of the website (top left)
-- use home button that is present on every page (near bottom page)
-- use the nav system above main left box
+- use the nav system above main left box to:
+    - visit Home page
+    - visit second page
+    - visit third page
+- use home button that is present on every page (near the bottom of the page exept the Home page)
+
 
 # Layout Sketches
 
@@ -91,7 +95,8 @@ Sketches done with [draw.io](https://app.diagrams.net/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [GitHub](https://github.com/)
  
- HTML has advanced over the years
+ ## Evolution of HTML and CSS
+ 
 
 ## HTML tags to be used effectively: 
 - **&lt;h1&gt;** to **&lt;h6&gt;** tags for titles
