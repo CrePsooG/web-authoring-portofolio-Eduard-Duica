@@ -44,6 +44,4 @@ If you are interested in interacting with the website there are a few ways:
 
 - Photo by Pixabay: https://www.pexels.com/photo/black-mountains-under-the-stars-at-nighttime-355465/
 
-
 - Photo by Pixabay: https://www.pexels.com/photo/grey-concrete-buildings-under-cloudy-sky-417192/
-

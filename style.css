@@ -78,6 +78,9 @@ body {
     color: rgb(240, 240, 240); 
 }
 
+.about-page3 p, .about-page2 p {
+    line-height: 1.4em;
+}
 
 /* *********************************************/
 /* Unique style for the Home page (index.html) */
@@ -98,6 +101,7 @@ body {
         padding: 1rem;
         text-align: center;
         font-size: 30px;
+        line-height: 1.4em;
     }
 
     .index-about-section h2 {
@@ -122,6 +126,7 @@ body {
     }
     .page2-summary-section p, .page3-summary-section p {
         margin: 2rem 0;
+        line-height: 1.4em;
     }
 
     /* Style for the form from index.html*/
@@ -193,6 +198,7 @@ body {
     text-align: center;
     flex: 1 1 100%;
     font-size: 30px;
+    line-height: 1.4em;
 }
 
 .hobbies-about-section h2 {
@@ -270,6 +276,7 @@ body {
     text-align: center;
     flex: 1 1 100%;
     font-size: 30px;
+    line-height: 1.4em;
 }
 
 .page3-about-section h2 {
@@ -290,6 +297,7 @@ body {
     max-width: 480px;
     text-align: center;
     margin: 1rem 0;
+    line-height: 1.4em;
 }
 .list-section p {
     margin: 2rem 0;
@@ -362,12 +370,5 @@ a:visited {
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
-.index-about-section p {
-    line-height: 1.4em;
-}
-
-.page2-summary-section, .page3-summary-section {
-    line-height: 1.4em;
-}
 
 /* RESPONSIVE */
