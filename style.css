@@ -40,12 +40,14 @@ body {
 
 .elements-container {
     display: flex;
+    
     padding: 0.4rem 3rem;
     gap: 3rem;
     margin-bottom: 5rem;
 }
 
 .main-content {
+    
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -85,6 +87,31 @@ body {
     line-height: 1.4em;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* *********************************************/
 /* Unique style for the Home page (index.html) */
 /* *********************************************/
@@ -108,25 +135,39 @@ body {
         margin-bottom: 10px;
     }
 
-    .pages-summary-container {
+    /* .pages-summary-container {
         display: flex;
         margin: 10px;
         justify-content: space-around;
         font-size: 26px;
         
+    } */
+
+    .page2-summary-section {
+        
     }
 
+    .page3-summary-section {
+        
+    }
+    
     .page2-summary-section, .page3-summary-section {
         padding: 1rem;
         max-width: 480px;
         margin: 10px;
         text-align: center;
         margin: 2rem 0;
+        font-size: 26px;
     }
     .page2-summary-section p, .page3-summary-section p {
         margin: 2rem 0;
         line-height: 1.4em;
+        
     }
+
+
+
+
 
     /* Style for the form from index.html*/
     .form {
@@ -177,6 +218,34 @@ body {
     .btn-form {
         margin: 1rem;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* *******************************************/
 /* Unique style for hobbies page (page2.html)*/
@@ -252,6 +321,48 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ************************************************/
 /* Unique style for Future Plans page (page.html) */
 /* ************************************************/
@@ -294,6 +405,47 @@ body {
 .list-section p {
     margin: 2rem 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ***************************************/
