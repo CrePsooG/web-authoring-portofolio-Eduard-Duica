@@ -94,157 +94,93 @@ body {
     width: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* *********************************************/
 /* Unique style for the Home page (index.html) */
 /* *********************************************/
-    #index-content {
-        background: linear-gradient(rgba(41, 78, 92, 0.521),rgba(0, 0, 0, 0.5)), url(./images/pexels-whileopenmind-10635648.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-    }
+#index-content {
+    background: linear-gradient(rgba(41, 78, 92, 0.521),rgba(0, 0, 0, 0.5)), url(./images/pexels-whileopenmind-10635648.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 
-    /* index main box */
-    .index-about-section {
-        padding: 1rem;
-        text-align: center;
-        font-size: 30px;
-        line-height: 1.4em;
-    }
+/* index main box */
+.index-about-section {
+    padding: 1rem;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.4em;
+}
 
-    .index-about-section h2 {
-        margin-bottom: 10px;
-    }
-
-    /* .pages-summary-container {
-        display: flex;
-        margin: 10px;
-        justify-content: space-around;
-        font-size: 26px;
-        
-    } */
+.index-about-section h2 {
+    margin-bottom: 10px;
+}
     
-    .page2-summary-section, .page3-summary-section {
-        padding: 1rem;
-        max-width: 480px;
-        margin: 10px;
-        text-align: center;
-        margin: 2rem 0;
-        font-size: 26px;
-    }
-    .page2-summary-section p, .page3-summary-section p {
-        margin: 2rem 0;
-        line-height: 1.4em;
-        
-    }
+.page2-summary-section, .page3-summary-section {
+    padding: 1rem;
+    max-width: 480px;
+    margin: 10px;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 26px;
+}
 
+.page2-summary-section p, .page3-summary-section p {
+    margin: 2rem 0;
+    line-height: 1.4em;  
+}
 
+/* ********************************* */
+/* Style for the form from index.html*/
+/* ********************************* */
+.form {      
+    max-height: 670px;
+    max-width: 364px;
+    font-size: 30px;
+    background-color: rgba(41, 46, 52, 0.8);
+    box-shadow: 6px 6px rgba(22, 24, 29, 0.8);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(240, 240, 240); 
+}
 
+.form-title-description {
+    text-align: center;
+}
 
+.form-title-description h2 {
+     padding: 1rem 0;
+}
 
-    /* Style for the form from index.html*/
-    .form {
-        
-        max-height: 670px;
-        max-width: 364px;
-        font-size: 30px;
-        background-color: rgba(41, 46, 52, 0.8);
-        box-shadow: 6px 6px rgba(22, 24, 29, 0.8);
-        border-radius: 1rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        color: rgb(240, 240, 240); 
+.form-title-description p {
+    padding: 0.6rem 1rem;
+}
 
-        transition: 1s;
-    }
+#form-textarea {
+    margin: 1rem 1rem;
+    max-width: 310px;
+    max-height: 120px;
+    min-height: 120px;
+    font-size: 26px;
+    border-radius: 0.4rem;
+}
 
-    .form-title-description {
-        text-align: center;
-    }
+#form-mail {
+    font-size: 25px;
+    border-radius: 0.3rem;
+}
 
-    .form-title-description h2 {
-        padding: 1rem 0;
-    }
+.form-checkboxes {
+    margin: 10px;
+}
 
-    .form-title-description p {
-        padding: 0.6rem 1rem;
-    }
-
-    #form-textarea {
-        margin: 1rem 1rem;
-        max-width: 310px;
-        max-height: 120px;
-        min-height: 120px;
-        font-size: 26px;
-        border-radius: 0.4rem;
-    }
-
-    #form-mail {
-        font-size: 25px;
-        border-radius: 0.3rem;
-    }
-
-    .form-checkboxes {
-        margin: 10px;
-    }
-
-    .btn-form {
-        margin: 1rem;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btn-form {
+    margin: 1rem;
+}
 
 /* *******************************************/
 /* Unique style for hobbies page (page2.html)*/
@@ -297,16 +233,6 @@ body {
     border-radius: 3px;
 }
 
-/* .game-list-container {
-    display: flex;
-    font-size: 30px;
-    padding: 1rem;
-    gap: 100px;
-    justify-content: space-evenly;
-    flex-basis: 100%;
-} */
-
-
 .game-list-selection {
     padding: 0rem;
     max-width: 480px;
@@ -324,51 +250,6 @@ body {
 .game-list-selection li {
     margin-bottom: 0.5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ************************************************/
 /* Unique style for Future Plans page (page.html) */
@@ -393,67 +274,23 @@ body {
     margin-bottom: 10px;
 }
 
-.lists-container {
-    display: flex;
-    flex: 1 1 100%;
-    margin: 10px;
-    justify-content: space-around;
-    font-size: 26px;
-    
-}
-
-.list-selection {
+.list-section {
     padding: 1rem;
     max-width: 480px;
     text-align: center;
-    margin: 1rem 0;
     line-height: 1.4em;
+    font-size: 1.6rem;
+    margin: 1rem 2rem;
+    max-width: 500px;
 }
 .list-section p {
     margin: 2rem 0;
+    
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.list-section li {
+    text-align: left;
+}
 
 /* ***************************************/
 /* Common Buttons and Links on all pages */
@@ -470,7 +307,6 @@ body {
 
 .btn-home {
     margin: 2rem 1rem;
-    /* flex:0 0 auto; */
 }
 
 a {
@@ -511,14 +347,9 @@ a:visited {
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
-
-
-
-
-
-
-
-
+/* ********************** */
+/* Different screen sizes */
+/* ********************** */
 @media (max-width: 1000px) {
     #header {
         text-align: center;
@@ -536,7 +367,7 @@ a:visited {
         padding: 0.4rem 0rem;
     }
     
-    .about-page2, .about-page3 a {
+    .about-page2 a, .about-page3 a {
         margin: 1rem 0;
     }
 }
