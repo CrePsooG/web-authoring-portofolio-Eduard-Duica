@@ -31,6 +31,8 @@ body {
     padding: 0.4rem 3rem;
     font-size: 30px;
     color: rgb(240, 240, 240);
+
+    display: flex;
 }
 
 #nav a {
@@ -142,14 +144,6 @@ body {
         font-size: 26px;
         
     } */
-
-    .page2-summary-section {
-        
-    }
-
-    .page3-summary-section {
-        
-    }
     
     .page2-summary-section, .page3-summary-section {
         padding: 1rem;
@@ -183,6 +177,8 @@ body {
         align-items: center;
         justify-content: space-around;
         color: rgb(240, 240, 240); 
+
+        transition: 1s;
     }
 
     .form-title-description {
@@ -501,4 +497,51 @@ a:visited {
     font-weight: bold;
     color: white;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    #header {
+        text-align: center;
+        padding: 0.4rem 0;
+    }
+
+    #nav {
+        justify-content: center;
+    }
+
+    .elements-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.4rem 0rem;
+    }
+
+}
+
+@media (max-width: 650px) {
+    #header a {
+        font-size: 2.6rem;
+    }
+
+    #nav {
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    #nav a {
+        margin-bottom: 0.5rem;
+    }
+
+    #nav p {
+        display: none;
+    }
 }
