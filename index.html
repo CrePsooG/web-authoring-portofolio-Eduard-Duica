@@ -6,79 +6,77 @@
     <title>Main Page</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <div id="index-content">
-        <header id="header">
+<body id="index-content">
+    
+    <header id="header">
             <h1><a href="./index.html">Website name</a></h1>
-        </header>
+    </header>
         
-        <nav id="nav">
-            <a href="/index.html"><strong>Home</strong></a> |
-            <a href="./page2.html">My Hobbies</a> |
-            <a href="./page3.html">Future plans</a>
-        </nav>
+    <nav id="nav">
+        <a href="/index.html"><strong>Home</strong></a> |
+        <a href="./page2.html">My Hobbies</a> |
+        <a href="./page3.html">Future plans</a>
+    </nav>
+        
+    <div class="elements-container">
 
-        <div class="elements-container">
+         <main class="main-content">
 
-            <main class="main-content">
-                <section class="index-about-section">
-                    <h2>About me</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, molestiae? Autem, deserunt dolorum, mollitia tempora id fuga inventore nisi beatae accusantium facere consequatur, et aliquam alias. Modi debitis aut excepturi quisquam, adipisci hic necessitatibus maxime consectetur assumenda. Ratione cum obcaecati voluptates quisquam laboriosam reprehenderit, laudantium error, architecto ut quo assumenda!</p>
+            <section class="index-about-section">
+                <h2>About me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, molestiae? Autem, deserunt dolorum, mollitia tempora id fuga inventore nisi beatae accusantium facere consequatur, et aliquam alias. Modi debitis aut excepturi quisquam, adipisci hic necessitatibus maxime consectetur assumenda. Ratione cum obcaecati voluptates quisquam laboriosam reprehenderit, laudantium error, architecto ut quo assumenda!</p>
+            </section>
+
+            <div class="pages-summary-container">
+
+                <section class="page2-summary-section">
+                    <h2>My Hobbies</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nihil incidunt ex corporis perspiciatis quos praesentium assumenda laboriosam doloribus asperiores!</p>
+                    <!-- Button because for some reason the <a> tag doesn't want to "transform: translate(-1px, -2px);" while in a section -->
+                    <button class="btn btn-learn-more"><a href="./page2.html">Learn more</a></button>
                 </section>
 
-                <div class="pages-summary-container">
+                <section class="page3-summary-section">
+                    <h2>Future plans</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nihil incidunt ex corporis perspiciatis quos praesentium assumenda laboriosam doloribus asperiores!</p>
+                    <!-- Button because for some reason the <a> tag doesn't want to "transform: translate(-1px, -2px);" while in a section -->
+                    <button class="btn btn-learn-more"><a href="./page3.html">Learn more</a></button>
+                </section>
 
-                    <section class="page2-summary-section">
-                        <h2>My Hobbies</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nihil incidunt ex corporis perspiciatis quos praesentium assumenda laboriosam doloribus asperiores!</p>
-                        <!-- Button because for some reason the <a> tag doesn't want to "transform: translate(-1px, -2px);" while in a section -->
-                        <button class="btn btn-learn-more"><a href="./page2.html">Learn more</a></button>
-                    </section>
+            </div>
 
-                    <section class="page3-summary-section">
-                        <h2>Future plans</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nihil incidunt ex corporis perspiciatis quos praesentium assumenda laboriosam doloribus asperiores!</p>
-                        <!-- Button because for some reason the <a> tag doesn't want to "transform: translate(-1px, -2px);" while in a section -->
-                        <button class="btn btn-learn-more"><a href="./page3.html">Learn more</a></button>
-                    </section>
+        </main>
 
+        <form class="form">
+
+            <div class="form-title-description">
+                <h2>Feedback</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo culpa amet nesciunt, tempore vitae fugiat.</p>
+            </div>
+            <textarea id="form-textarea" name="textarea" placeholder="Write your message"></textarea>
+
+            <div>
+                <label for="mail">Email *:</label>
+                <br>
+                <input type="email" id="form-mail" name="user-mail" required />
+            </div>
+            <div class="form-checkboxes-container">
+                <div class="form-checkboxes">
+                    <input type="checkbox" name="" id="subscribe">
+                    <label for="subscribe">Subscribe</label>
                 </div>
 
-            </main>
-
-            <form class="form">
-
-                <div class="form-title-description">
-                    <h2>Feedback</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo culpa amet nesciunt, tempore vitae fugiat.</p>
+                <div class="form-checkboxes">
+                    <input type="checkbox" name="" id="agree-TandC" required>
+                    <label for="agree-TandC">Agree T&C</label>
                 </div>
-                <textarea id="form-textarea" name="textarea" placeholder="Write your message"></textarea>
-
-                <div>
-                    <label for="mail">Email *:</label>
-                    <br>
-                    <input type="email" id="form-mail" name="user-mail" required />
-                </div>
-                <div class="form-checkboxes-container">
-                    <div class="form-checkboxes">
-                        <input type="checkbox" name="" id="subscribe">
-                        <label for="subscribe">Subscribe</label>
-                    </div>
-
-                    <div class="form-checkboxes">
-                        <input type="checkbox" name="" id="agree-TandC" required>
-                        <label for="agree-TandC">Agree T&C</label>
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-form">Submit</button> 
-            </form>
-        
-        </div>
-
-        <footer id="footer">
-            <p>&#169; 2025 text here</p>
-        </footer>
-
+            </div>
+            <button type="submit" class="btn btn-form">Submit</button> 
+        </form>
     </div>
+
+    <footer id="footer">
+        <p>&#169; 2025 text here</p>
+    </footer>
 </body>
 </html>
