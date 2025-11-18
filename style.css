@@ -233,7 +233,7 @@ body {
     border-radius: 3px;
 }
 
-.game-list-selection {
+/* .game-list-selection {
     padding: 0rem;
     max-width: 480px;
     margin: 2.6rem 2rem;
@@ -241,15 +241,32 @@ body {
     font-size: 30px;
 }
 
-
-
 .game-list-selection h3 {
     margin-bottom: 0.5rem;
 }
 
 .game-list-selection li {
     margin-bottom: 0.5rem;
+} */
+
+/* .photos-showcase-selection {
+    padding: 0rem;
+    max-width: 480px;
+    margin: 2.6rem 2rem;
+    text-align: center;
+    font-size: 30px;
+} */
+
+.photos-style {
+    height: 100px;
+    width: auto;
 }
+
+
+
+
+
+
 
 /* ************************************************/
 /* Unique style for Future Plans page (page.html) */

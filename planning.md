@@ -120,3 +120,21 @@ Sketches done with [draw.io](https://app.diagrams.net/)
 - **text-align** property for aligning text in the center
 - **padding** property for padding inside of the boxes
 - **box-sizing** property to allow me to include padding without making the boxes bigger
+
+## Timeline: 
+- 5 - 7 November 2025
+    - Work on planning.md the general layout and README.md
+
+- 7 - 9 November 2025
+    - Finish the pages layout and add contents to all pages
+
+- 11 - 12 November 2025
+    - Fix issues with the layout and make changes to the layout
+
+- 18 - 19 November 2025
+    - Finish planning.md and README.md
+    - Finish and fix website layout
+
+- 20 - 23 November 2025
+    - Replace placeholder text that is on the pages
+    - Finish Project
