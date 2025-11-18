@@ -6,7 +6,7 @@ Target audience: everyone
 ## Planning main page
 
 - **Header** with the name of the my website
-- a nav showing the page you are on in **bold text** and other avalible pages
+- a **nav** showing the page you are on in **bold text** and other avalible pages
 - 2 boxes: left and right
 - the box on the left (about the project):
     - a big box
@@ -16,6 +16,7 @@ Target audience: everyone
         - each description has a title
         - describle what the topic is about
         - button below each of them -> link to correct page 
+
 - the box on the right (form):
     - a smaller box
     - A h2 size **title** in the top middle of the box
@@ -34,12 +35,13 @@ Target audience: everyone
 - 2 boxes: left and right
 - the box on the left:
     - a big box
-    - A h2 size **title** in the top middle of the box
-    - A **paragraph** with text
-    - below the paragraph a **data table**
-    - 2 pictures next to the table
+    - A h2 size **title** in the top left of the box
+    - A **paragraph** with text below the title
+    - to the left of the paragraph a **data table**
+    - below the main paragraph a title and a paragraph
+    - next to the title and paragraph 2 pictures
+    - home **link** (in the middle of the box) -> link to home
 
-    - home **link** -> link to home
 - the box on the right (go to page 3):
     - a smaller box
     - A h2 size **title** in the top middle of the box
@@ -74,25 +76,27 @@ Target audience: everyone
     - one main box with the main topic of the page
     - second smaller box on the right next to the main box
 - a footer with the a symbol and some text
-- and a background picture
+- the color of the text is white on a slightly transparent background
+- a background picture
 
 ## Navigation:
 I chose a navigation system with buttons and links because it's easy to use and understand. 
 
-In order to go to the **Home** page you can: 
-- click the name of the website (top left)
-- use the nav system above main left box and click **Home**
-- use Home button or link that is present on every page (near the bottom of the page exept the Home page)
+While you are on the main page, in order to view other pages you can:
+- click the **links** on the nav system above the main big box
+- click the buttons on the **Home** page that are located at near the bottom of the main big box
 
-For viewing other pages you can:
-- click the buttons on the **Home** page
-- click the **Learn more** link that is located in the small left box on the page
+When you are on ther pages you can:
+- click the **Learn more** link that is located in the small box found on the right of the page to go to other pages
+- click the links on the nav system above the main big box to go **Home** or other pages
+- use the **Home** button or link that is present on every page (near the bottom of the page in the middle, exept the Home page)
+
 
 # Layout Sketches
 
-![image](./images/images_planning_README/index.pn)
-![image](./images/images_planning_README/page-2.pn)
-![image](./images/images_planning_README/page-3.pn)
+![image](./images/images_planning_README/index-drawio.png)
+![image](./images/images_planning_README/Page2-drawio.png)
+![image](./images/images_planning_README/Page3-drawio.png)
 
 Sketches done with [draw.io](https://app.diagrams.net/)
 
@@ -100,9 +104,6 @@ Sketches done with [draw.io](https://app.diagrams.net/)
 - HTML
 - CSS
 - Flexbox (CSS flexible box layout)
-- [Pexels](https://www.pexels.com/) for images
-- [Visual Studio Code](https://code.visualstudio.com/download)
-- [GitHub](https://github.com/)
  
  ## Evolution of HTML and CSS
  
@@ -126,7 +127,7 @@ Sketches done with [draw.io](https://app.diagrams.net/)
     - Work on planning.md the general layout and README.md
 
 - 7 - 9 November 2025
-    - Finish the pages layout and add contents to all pages
+    - Make the pages and add contents to all pages
 
 - 11 - 12 November 2025
     - Fix issues with the layout and make changes to the layout

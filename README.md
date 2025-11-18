@@ -4,26 +4,32 @@ The project contains a description of me and what my hobbies and future plans ar
 The purpose of this website portofolio is to demonstrate my practical web development skills and understanding of HTML and CSS.
 
 ## What I learned
-This project was challenging. Learning to plan and design the website before building it and sticking with the layout and design decisions was tough.
+This project was challenging. I learned to plan and design the website before building it.
 
-While doing the project, I learned about CSS Flexbox and how to use it. 
+While doing the project, I not only learned about CSS Flexbox and how to use it but also, more about having a good website design.
 
 # Page contents:
 ## Home:
-The home page
+The home page contains:
+- a paragraph about who I am
+- the other 2 topics that are: 
+    - My Hobbies 
+    - Future plans
+- a form if you would like to leave feedback
 
 ## My Hobbies:
-My hobbies page contains details about my hobbies and some examples of what those are
+My hobbies page contains details about my hobbies and some examples of what those are. It also contains a table with data and 2 photos
 
 ## Future plans:
-Future plans page is about what I want to achieve and what my plans are for the future.
+Future plans page is about what I want to achieve and what my plans are for the future put into 2 lists.
 
-# Special Features:
-- Header with **&lt;header&gt;** tag
-- Set of Navigation links  
-- Email input 
-- Text area Placeholder
-- Footer with **&lt;footer&gt;** tag
+## Special Features:
+- Interactive elements such as:
+    - links
+    - images
+    - buttons
+
+- Responsive design
 
 # How access and interact with the website: 
 If you are interested in interacting with the website there are a few ways: 
