@@ -71,7 +71,7 @@ body {
 }
 
 .about-page3, .about-page2 {
-    max-height: 400px;
+    max-height: 450px;
     max-width: 364px;
     font-size: 30px;
     background-color: rgba(41, 46, 52, 0.8);
@@ -176,6 +176,7 @@ body {
 
 .form-checkboxes {
     margin: 10px;
+    text-align: center;
 }
 
 .btn-form {

@@ -14,7 +14,7 @@ Target audience: everyone
     - A **paragraph** with text
     - below the paragraph 2 short (about page 2 and 3) descriptions next to each other:
         - each description has a title
-        - describle what the topic is about
+        - describe what the topic is about
         - button below each of them -> link to correct page 
 
 - the box on the right (form):
@@ -35,7 +35,7 @@ Target audience: everyone
 - 2 boxes: left and right
 - the box on the left:
     - a big box
-    - A h2 size **title** in the top left of the box
+    - A h2 size **title** near the top left of the box
     - A **paragraph** with text below the title
     - to the left of the paragraph a **data table**
     - below the main paragraph a title and a paragraph
@@ -137,5 +137,5 @@ Sketches done with [draw.io](https://app.diagrams.net/)
     - Finish and fix website layout
 
 - 20 - 23 November 2025
-    - Replace placeholder text that is on the pages
-    - Finish Project
+    - Replace placeholder text
+    - Finish Project 

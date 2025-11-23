@@ -37,8 +37,7 @@ If you are interested in interacting with the website there are a few ways:
 1. (Online) Click this [link]()
 2. (Offline) **Download** the files from GitHub:
     - Visit this [link](https://github.com/CrePsooG/web-authoring-portofolio-Eduard-Duica) 
-    - Click the **green button** and select **Dowload ZIP**
-    - ![image](./images/tutorial.png)
+    - Click the **green button** and select **Dowload ZIP** ![image](./images/tutorial.png)
     - **Unzip** the downloaded files (make sure the files are in the same folder)
     - Navigate to the folder and open the file named **index.html** (the file may have the name **index** without the **.html** part, depending on operating system settings)
 
@@ -55,3 +54,8 @@ If you are interested in interacting with the website there are a few ways:
 
 - Photo by Pixabay: https://www.pexels.com/photo/grey-concrete-buildings-under-cloudy-sky-417192/
 
+- Red Dead Redemption 2. Rockstar Games, 2018. Windows PC game.
+
+- Nier: Automata. Directed by Yoko Taro, PlatinumGames / Square Enix, 2017. Windows PC game.
+
+- Portal 2. Directed by Joshua Weier, Valve, 2011. Windows PC game.
