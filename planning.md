@@ -106,7 +106,16 @@ Sketches done with [draw.io](https://app.diagrams.net/)
 - Flexbox (CSS flexible box layout)
  
  ## Evolution of HTML and CSS
- 
+ When HTML (HyperText Markup Language) was first released in 1993, it only had support for displaying text and links. 
+ - In 1995, HTML 2 introduced support for images, forms and tables. 
+ - In Jan. 1997, HTML 3 introduced support for CSS 1 (Cascading Style Sheets) and JavaScript. 
+ - In Dec. 1997, HTML 4 incouraged the use of CSS and introduced new semantic elements
+ - In 2014, HTML 5 introduced support for audio, video, SVGs and responsive web design with media queries, etc.. This is the version that is still updated and used in 2025
+
+ CSS (Cascading Style Sheets) is used to style HTML. 
+ - In 1996, CSS 1 introduced support for font properties, color of elements, text attributes, alignment of elements, margins, borders and padding.
+ - In 1998, CSS 2 added new capabilities such as absolute, relative, and fixed positioning of elements
+ - Work on CSS 3 started around 1999 and is still evolving in 2025. CSS 3 was divided into serveral separate modules. Each module adding new capabilities such as Flexbox, CSS Grid, media queries, gradients, etc., or extending features from CSS 2 to preserve backward compatibility. 
 
 ## HTML tags to be used effectively: 
 - **&lt;h1&gt;** to **&lt;h6&gt;** tags for titles

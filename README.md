@@ -34,7 +34,7 @@ Future plans page is about what I want to achieve and what my plans are for the 
 # How access and interact with the website: 
 If you are interested in interacting with the website there are a few ways: 
 
-1. (Online) Click this [link]()
+1. (Online) Click this [link](https://crepsoog.github.io/web-authoring-portofolio-Eduard-Duica/index.html)
 2. (Offline) **Download** the files from GitHub:
     - Visit this [link](https://github.com/CrePsooG/web-authoring-portofolio-Eduard-Duica) 
     - Click the **green button** and select **Dowload ZIP** ![image](./images/tutorial.png)

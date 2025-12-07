@@ -31,7 +31,6 @@ body {
     padding: 0.4rem 3rem;
     font-size: 30px;
     color: rgb(240, 240, 240);
-
     display: flex;
 }
 
@@ -42,14 +41,12 @@ body {
 
 .elements-container {
     display: flex;
-    
     padding: 0.4rem 3rem;
     gap: 3rem;
     margin-bottom: 5rem;
 }
 
 .main-content {
-    
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -70,7 +67,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.about-page3, .about-page2 {
+.about-futurePlans, .about-myHobbies {
     max-height: 450px;
     max-width: 364px;
     font-size: 30px;
@@ -85,7 +82,7 @@ body {
     color: rgb(240, 240, 240); 
 }
 
-.about-page3 p, .about-page2 p {
+.about-futurePlans p, .about-myHobbies p {
     line-height: 1.4em;
 }
 
@@ -117,7 +114,7 @@ body {
     margin-bottom: 10px;
 }
     
-.page2-summary-section, .page3-summary-section {
+.myHobbies-summary-section, .futurePlans-summary-section {
     padding: 1rem;
     max-width: 480px;
     margin: 10px;
@@ -126,7 +123,7 @@ body {
     font-size: 26px;
 }
 
-.page2-summary-section p, .page3-summary-section p {
+.myHobbies-summary-section p, .futurePlans-summary-section p {
     margin: 2rem 0;
     line-height: 1.4em;  
 }
@@ -184,7 +181,7 @@ body {
 }
 
 /* *******************************************/
-/* Unique style for hobbies page (page2.html)*/
+/* Unique style for hobbies page (myHobbies.html)*/
 /* *******************************************/
 #hobbies-content {
     background: linear-gradient(rgba(17, 42, 67, 0.521),rgba(0, 0, 0, 0.5)), url(./images/background_images/pexels-pixabay-355465.jpg);
@@ -273,7 +270,7 @@ body {
 }
 
 /* ************************************************/
-/* Unique style for Future Plans page (page.html) */
+/* Unique style for Future Plans page (futurePlans.html) */
 /* ************************************************/
 #future-plans-content {
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url(./images/background_images/pexels-pixabay-417192.jpg);
@@ -388,7 +385,7 @@ a:visited {
         padding: 0.4rem 0rem;
     }
     
-    .about-page2 a, .about-page3 a {
+    .about-myHobbies a, .about-futurePlans a {
         margin: 1rem 0;
     }
 }
