@@ -59,3 +59,7 @@ If you are interested in interacting with the website there are a few ways:
 - Nier: Automata. Directed by Yoko Taro, PlatinumGames / Square Enix, 2017. Windows PC game.
 
 - Portal 2. Directed by Joshua Weier, Valve, 2011. Windows PC game.
+
+- Wikipedia Contributors (2018). HTML. [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/HTML.
+
+- Wikipedia Contributors (2020). CSS. [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/CSS.
