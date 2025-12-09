@@ -86,7 +86,7 @@ While you are on the main page, in order to view other pages you can:
 - click the **links** on the nav system above the main big box
 - click the buttons on the **Home** page that are located at near the bottom of the main big box
 
-When you are on ther pages you can:
+When you are on other pages you can:
 - click the **Learn more** link that is located in the small box found on the right of the page to go to other pages
 - click the links on the nav system above the main big box to go **Home** or other pages
 - use the **Home** button or link that is present on every page (near the bottom of the page in the middle, exept the Home page)
@@ -112,10 +112,14 @@ Sketches done with [draw.io](https://app.diagrams.net/)
  - In Dec. 1997, HTML 4 incouraged the use of CSS and introduced new semantic elements
  - In 2014, HTML 5 introduced support for audio, video, SVGs and responsive web design with media queries, etc.. This is the version that is still updated and used in 2025
 
+Source: Wikipedia Contributors (2018). HTML. [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/HTML.
+
  CSS (Cascading Style Sheets) is used to style HTML. 
  - In 1996, CSS 1 introduced support for font properties, color of elements, text attributes, alignment of elements, margins, borders and padding.
  - In 1998, CSS 2 added new capabilities such as absolute, relative, and fixed positioning of elements
- - Work on CSS 3 started around 1999 and is still evolving in 2025. CSS 3 was divided into serveral separate modules. Each module adding new capabilities such as Flexbox, CSS Grid, media queries, gradients, etc., or extending features from CSS 2 to preserve backward compatibility. 
+ - Work on CSS 3 started around 1999 and is still evolving in 2025. CSS 3 was divided into serveral separate modules. Each module adding new capabilities such as Flexbox, CSS Grid, media queries, gradients, etc., or extending features from CSS 2 to preserve backward compatibility.
+
+Source: Wikipedia Contributors (2020). CSS. [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/CSS.
 
 ## HTML tags to be used effectively: 
 - **&lt;h1&gt;** to **&lt;h6&gt;** tags for titles
@@ -148,3 +152,4 @@ Sketches done with [draw.io](https://app.diagrams.net/)
 - 20 - 23 November 2025
     - Replace placeholder text
     - Finish Project 
+
